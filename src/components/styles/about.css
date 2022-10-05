@@ -1,0 +1,27 @@
+.about-content-main{
+    scroll-behavior: smooth;
+    box-shadow: 3px 3px 20px  black;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.about-content-main h1{
+    margin: 0 auto;
+    font-family: serif ;
+    color: black;
+    text-decoration: underline;
+}
+
+p{
+    margin: 1rem auto;
+    font-family: serif;
+    font-size: 2.4rem;
+    color: var(--main);
+    
+}
+

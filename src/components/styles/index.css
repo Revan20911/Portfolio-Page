@@ -1,0 +1,197 @@
+:root{
+    --prim-dark: rgb(43, 43, 45);
+    --main: rgb(39, 39, 40);
+}
+
+
+
+header{
+    z-index: 9999;
+    display: flex;
+    flex-direction: row;
+    width: 100vmax;
+    height: 6rem;
+    top: 0;
+    position: fixed;
+    background-color: var(--prim-dark);
+    box-shadow: 3px 3px 8px black;
+}
+
+header button{
+    background-color: inherit;
+    height: 6rem;
+    padding: 5px 2px;
+    width: fit-content;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 2px solid transparent;
+    border-width: 3px;
+}
+
+header button:hover{
+    border-bottom-color: white;
+}
+
+main{
+    display: block;
+    
+    width: 100vmax;
+    transition: 1s ease-in-out all;
+}
+
+.contentwrap{
+    z-index: 9999;
+    
+    
+    margin: 0 auto;
+    
+}
+
+.content-container{
+
+    width: 80vw;
+    height: fit-content;
+    display: flex;
+
+}
+.home-content-main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main) ;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    
+    animation: slide-down 1s ease-in-out forwards;
+    opacity: 0;
+    margin-top: 6rem;
+    box-shadow: 3px 3px 20px  black;
+
+    width: 100vw;
+}
+
+.text-container{
+    display: block;
+    width: fit-content;
+    color: white;
+    text-align: left;
+    opacity: 0;
+    transition: 1s ease-in-out all;
+    animation: fade-in 1.0s 1.3s linear forwards;
+    font-size: 3rem;
+    margin: 0 auto;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.text-container img{
+    opacity: 0;
+    max-width: 30rem;
+    max-height: 30rem;
+    transition: 1s ease-in-out all;
+    animation: fade-in 1.0s 2.3s linear forwards;
+}
+
+.down-arrow-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6.1rem;
+    width: 6.1rem;
+    border: none;
+    transition: 3s ease-in all;
+    animation: flash 2s alternate-reverse infinite;
+    transform: rotate(-90deg) translate(10px);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.down-arrow-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6.1rem;
+    width: 6.1rem;
+    border: none;
+    transition: 3s ease-in all;
+    animation: flash 2s alternate-reverse infinite;
+    transform: rotate(-90deg) translate(10px);
+    background-color: transparent;
+    padding: 20px 10px;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+
+.down-arrow-2 img{
+    margin: 0 auto;
+    content: url("/home/chrism/repos/portfolio1/src/components/assets/arrow-dark.png");
+}
+
+.down-arrow-1 img{
+    margin: 0 auto;
+    content: url("/home/chrism/repos/portfolio1/src/components/assets/icons8-arrow-65.png")
+}
+#subtitle{
+    transition: 1s ease-in-out all;
+    animation: fade-in 1.0s 1.9s linear forwards;
+    color: white;
+    text-align: left;
+    opacity: 0;
+}
+
+@keyframes colorchange{
+    from {
+        border-bottom-color: transparent;
+    } 
+    to {
+        border-bottom-color: white;
+    }
+}
+
+@keyframes slide-down{
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes flash{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 1000px){
+    .container{
+        flex-direction: column;
+        height: fit-content; 
+    }
+}
+
