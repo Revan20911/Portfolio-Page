@@ -2,7 +2,7 @@
 const ArrowDown = ({onClick, text, className}) =>{
     return(
         <>
-        <button className={className}onClick={onClick}><img/>
+        <button className={className}onClick={onClick}>
         </button>
         </>
     )
