@@ -14,7 +14,6 @@ const HomeContent = ({onClick}) => {
                     </h1>
                 </div>
                 <div className="text-container">
-                    <img src=""/>
             </div>
             </div>
 
