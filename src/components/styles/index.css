@@ -136,12 +136,12 @@ main{
 
 .down-arrow-2 img{
     margin: 0 auto;
-    content: url("/home/chrism/repos/portfolio1/src/components/assets/arrow-dark.png");
+    content: url("../assets/arrow-dark.png");
 }
 
 .down-arrow-1 img{
     margin: 0 auto;
-    content: url("../assets/icons8-arrow-65.png")
+    content: url("../assets/icons8-arrow-65.png");
 }
 #subtitle{
     transition: 1s ease-in-out all;
