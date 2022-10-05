@@ -136,7 +136,7 @@ main{
 
 .down-arrow-2 img{
     margin: 0 auto;
-    content: url("../assets/arrow-dark.png");
+    content: url("/home/chrism/repos/portfolio1/src/components/assets/arrow-dark.png");
 }
 
 .down-arrow-1 img{
@@ -149,6 +149,36 @@ main{
     color: white;
     text-align: left;
     opacity: 0;
+}
+
+.link-button{
+    display: flex;
+    height: 3rem;
+    width: 5rem;
+    border: 3px solid white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+    font-weight: 600;
+}
+
+.link-button:hover{
+    cursor: pointer;
+    background-color: white;;
+    color: black;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a:before, a:after, a:visited, a{
+    text-decoration: none;
+    color: inherit
 }
 
 @keyframes colorchange{
@@ -194,4 +224,3 @@ main{
         height: fit-content; 
     }
 }
-
