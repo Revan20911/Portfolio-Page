@@ -17,14 +17,14 @@ const Skills = ({onClick}) => {
             <div className="skills-container">
             <h1>Technologies I have used</h1>
             <div className="skill-grid">
-                <div className="skill"><img src={jsicon}/></div>
-                <div className="skill"><img src={htmlicon}/></div>
-                <div className="skill"><img src={cssicon}/></div>
-                <div className="skill"><img src={reacticon}/></div>
-                <div className="skill"><img src={nodeicon}/></div>
-                <div className="skill"><img src={exicon}/></div>
-                <div className="skill"><img src={pythonicon}/></div>
-                <div className="skill"><img src={mongoicon}/></div>  
+                <div className="skill"><img alt="" src={jsicon}/></div>
+                <div className="skill"><img alt="" src={htmlicon}/></div>
+                <div className="skill"><img alt="" src={cssicon}/></div>
+                <div className="skill"><img alt="" src={reacticon}/></div>
+                <div className="skill"><img alt="" src={nodeicon}/></div>
+                <div className="skill"><img alt="" src={exicon}/></div>
+                <div className="skill"><img alt="" src={pythonicon}/></div>
+                <div className="skill"><img alt="" src={mongoicon}/></div>  
             </div>
             <ArrowDown className={"down-arrow-1"} onClick={onClick}/>
             </div>
