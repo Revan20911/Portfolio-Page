@@ -9,7 +9,7 @@ const Projects = () => {
             <div className="project-content">
                 <div className="project-container">
                     <div className="image-container">
-                        <img  src={anitracker}/>
+                        <img alt=""  src={anitracker}/>
                     </div>
                     <div className="text-container">
                     <h1>AniTracker</h1>
