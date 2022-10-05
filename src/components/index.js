@@ -24,7 +24,7 @@ export default function Index (){
             <div className="contentwrap">
                 <HomeContent onClick={scrollToAbout}/>
                 <About onClick={scrollToSkills}/>
-                <Skills/>
+                <Skills onClick={scrollToProjects}/>
                 <Projects/>                
             </div>
         </main>
