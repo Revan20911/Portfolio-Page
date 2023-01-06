@@ -13,6 +13,12 @@ const Projects = () => {
                     <div className="image-container">
                         <img  alt="" src={anitracker}/>
                     </div>
+          
+                </div>
+                <div className="project-container">
+                    <div className="image-container">
+                        <img  alt="" src={anitracker}/>
+                    </div>
                     <div className="text-container">
                     <h1>AniTracker</h1>
                     <div className="row">
@@ -21,28 +27,7 @@ const Projects = () => {
                     </div>
                 </div>
                 </div>
-                <div className="project-container-middle">
-                <div className="text-container">
-                <h1>Weather-App</h1>
-                <div className="row">
-                        <Link text="LIVE" link="https://revan20911.github.io/weather-app/"/>
-                        <Link text="REPO" link="https://github.com/Revan20911/weather-app"/>
-                    </div>
-                </div>
-                <div className="image-container">
-                    <img alt="" src={weatherapp}/>
-                </div>
-                </div>
-                <div className="project-container">
-                <div className="image-container"></div>
-                <div className="text-container">
-                <h1>AniTracker</h1>
-                <div className="row">
-                        <Link text="LIVE" link="https://anim-tracker.netlify.app/"/>
-                        <Link text="REPO" link="https://github.com/Revan20911/AniTracker"/>
-                    </div>
-                </div>
-                </div>
+     
             </div>
         </div>
     )
