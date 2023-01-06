@@ -44,8 +44,6 @@ main{
 
 .contentwrap{
     z-index: 9999;
-    
-    
     margin: 0 auto;
     
 }
@@ -160,7 +158,6 @@ main{
     align-items: center;
     padding: 10px 20px;
     font-size: 2rem;
-    border-radius: 1.5rem;
     font-weight: 600;
 }
 
@@ -173,7 +170,7 @@ main{
 .row{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 a:before, a:after, a:visited, a{
