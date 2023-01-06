@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/projects.css";
 import anitracker from "../assets/Screenshot 2022-10-05 at 12-54-33 AniTracker.png";
-import weatherapp from "../assets/Screenshot 2022-10-05 at 15-22-44 Weather.png";
+
 import Link from "../ui/link";
 
 const Projects = () => {
