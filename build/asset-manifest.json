@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7788d1e2.css",
+    "main.js": "/static/js/main.0cc88dad.js",
+    "static/js/787.dbbd0357.chunk.js": "/static/js/787.dbbd0357.chunk.js",
+    "static/media/Screenshot 2022-10-05 at 12-54-33 AniTracker.png": "/static/media/Screenshot 2022-10-05 at 12-54-33 AniTracker.cdb572f3d6e814932ff6.png",
+    "static/media/Screenshot 2022-10-05 at 15-22-44 Weather.png": "/static/media/Screenshot 2022-10-05 at 15-22-44 Weather.cd0c551f08d7e47e1853.png",
+    "static/media/react.svg": "/static/media/react.0b444cdb639a488cc7470990d4b7b7a6.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.ea0b6603e0b3418f18d798ec01923d9e.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.7a37d872986e677e6fe43224c56b89ae.svg",
+    "static/media/python.svg": "/static/media/python.a9940823bb9c964788cc35cd8bb46f6b.svg",
+    "static/media/express.svg": "/static/media/express.17d6aefdd7235ab2cf8881c1b03ad312.svg",
+    "static/media/css3.svg": "/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
+    "index.html": "/index.html",
+    "static/media/javascript.svg": "/static/media/javascript.218515feb76f692771fe00cfeadc46c8.svg",
+    "static/media/html.svg": "/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
+    "main.7788d1e2.css.map": "/static/css/main.7788d1e2.css.map",
+    "main.0cc88dad.js.map": "/static/js/main.0cc88dad.js.map",
+    "787.dbbd0357.chunk.js.map": "/static/js/787.dbbd0357.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7788d1e2.css",
+    "static/js/main.0cc88dad.js"
+  ]
+}
