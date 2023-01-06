@@ -12,14 +12,14 @@
 
 .about-content-main h1{
     margin: 0 auto;
-    font-family: serif ;
+    font-family: Arial;
     color: black;
     text-decoration: underline;
 }
 
 p{
     margin: 1rem auto;
-    font-family: serif;
+    font-family: Arial;
     font-size: 2.4rem;
     color: var(--main);
     
