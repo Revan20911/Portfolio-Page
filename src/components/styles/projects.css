@@ -1,13 +1,19 @@
 .project-content-main{
     width: 100vw;
+    height:100vh;
     background-color: transparent;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
 }
 
 .project-content-main h1{
     font-family: ARIAL;
     font-size: 3.3rem;
     text-align: center;
+    
 }
 
 .project-content{

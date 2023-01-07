@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/about.css";
+import "../styles/index.css";
 import ArrowDown from "../ui/down_arrow_button";
+import Link from "../ui/link";
 
 const About = ({onClick}) => {
     return(
@@ -16,8 +18,11 @@ I am a web developer with a passion for creating visually appealing and user-fri
 
 <p>When I'm not coding, you can find me tinkering with new gadgets, playing the guitar, or working out at the gym. Thank you for visiting my portfolio, and I hope you enjoy exploring my work.</p>
                 </div>
+                <ArrowDown className={"down-arrow-2"} onClick={onClick}/>
             </div>
-            <ArrowDown className={"down-arrow-2"} onClick={onClick}/>
+
+            
+            
         </div>
     )
 }

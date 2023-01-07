@@ -51,16 +51,20 @@ main{
 .content-container{
 
     width: 80vw;
-    height: fit-content;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 .home-content-main{
     display: flex;
     flex-direction: column;
     background-color: var(--main) ;
-    height: 100vh;
-    justify-content: space-around;
+    
+    justify-content: center;
     align-items: center;
     
     animation: slide-down 1s ease-in-out forwards;
@@ -69,11 +73,13 @@ main{
     box-shadow: 3px 3px 20px  black;
 
     width: 100vw;
+    height: 100vh;
 }
 
 .text-container{
     display: block;
     width: fit-content;
+    
     color: white;
     text-align: left;
     opacity: 0;
