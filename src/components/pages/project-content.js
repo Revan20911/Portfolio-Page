@@ -27,6 +27,32 @@ const Projects = () => {
                     </div>
                 </div>
                 </div>
+                <div className="project-container">
+                    <div className="image-container">
+                        <img  alt="" src={anitracker}/>
+                    </div>
+                    <div className="text-container">
+                    <h1>AniTracker</h1>
+                    <div className="row">
+                        <Link text="LIVE" link="https://anim-tracker.netlify.app/"/>
+                        <Link text="REPO" link="https://github.com/Revan20911/AniTracker"/>
+                    </div>
+                </div>
+                </div>
+                <div className="project-container">
+                    <div className="image-container">
+                        <img  alt="" src={anitracker}/>
+                    </div>
+                    <div className="text-container">
+                    <h1>AniTracker</h1>
+                    <div className="row">
+                        <Link text="LIVE" link="https://anim-tracker.netlify.app/"/>
+                        <Link text="REPO" link="https://github.com/Revan20911/AniTracker"/>
+                    </div>
+                </div>
+                </div>
+                
+                
      
             </div>
         </div>
