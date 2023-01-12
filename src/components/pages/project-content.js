@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/projects.css";
 import anitracker from "../assets/Screenshot 2022-10-05 at 12-54-33 AniTracker.png";
+import watchable from "../assets/watchable.png"
 
 import Link from "../ui/link";
 
@@ -29,13 +30,13 @@ const Projects = () => {
                 </div>
                 <div className="project-container">
                     <div className="image-container">
-                        <img  alt="" src={anitracker}/>
+                        <img  alt="" src={watchable}/>
                     </div>
                     <div className="text-container">
                     <h1>AniTracker</h1>
                     <div className="row">
-                        <Link text="LIVE" link="https://anim-tracker.netlify.app/"/>
-                        <Link text="REPO" link="https://github.com/Revan20911/AniTracker"/>
+                        <Link text="Coming Soon"/>
+                        <Link text="REPO" link="https://github.com/Revan20911/Watchable"/>
                     </div>
                 </div>
                 </div>
