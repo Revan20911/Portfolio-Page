@@ -33,7 +33,7 @@ const Projects = () => {
                         <img  alt="" src={watchable}/>
                     </div>
                     <div className="text-container">
-                    <h1>AniTracker</h1>
+                    <h1>Watchable</h1>
                     <div className="row">
                         <Link text="Coming Soon"/>
                         <Link text="REPO" link="https://github.com/Revan20911/Watchable"/>
