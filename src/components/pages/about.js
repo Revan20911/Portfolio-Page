@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/about.css";
 import "../styles/index.css";
 import ArrowDown from "../ui/down_arrow_button";
-import Link from "../ui/link";
+
 
 const About = ({onClick}) => {
     return(
