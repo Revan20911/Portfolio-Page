@@ -35,7 +35,7 @@ const Projects = () => {
                     <div className="text-container">
                     <h1>Watchable</h1>
                     <div className="row">
-                        <Link text="Coming Soon"/>
+                        <Link text="LIVE"/>
                         <Link text="REPO" link="https://github.com/Revan20911/Watchable"/>
                     </div>
                 </div>
