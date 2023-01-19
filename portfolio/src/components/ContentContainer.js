@@ -9,7 +9,7 @@ import Projects from "./projects";
 
 function ContentContainer ({channel}){
 
-    const currentChannel = useState(channel);
+    const currentChannel = channel;
 
     if(currentChannel ==='Home' || ''){
         return(
