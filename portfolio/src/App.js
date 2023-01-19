@@ -7,7 +7,7 @@ import './index.css';
 
 function App() {
 
-  let currentChannel = localStorage.getItem('channel');
+//   let currentChannel = localStorage.getItem('channel');
 
   const [channel, setChannel] = useState('');
 
