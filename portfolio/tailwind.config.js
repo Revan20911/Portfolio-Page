@@ -24,7 +24,7 @@ module.exports = {
           border: '0px 0px 0px 2px solid black'
         },
         '100%': {
-          border: '0px solid transparent'
+          border: '0px 0px 0px 0px solid transparent'
         }
       },
 
