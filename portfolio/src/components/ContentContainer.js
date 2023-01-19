@@ -11,7 +11,7 @@ function ContentContainer ({channel}){
 
     const currentChannel = channel;
 
-    if(currentChannel ==='Home' || ''){
+    if(currentChannel === 'Home' | ''){
         return(
             <div className="fixed xs:left-0 md:left-16 sm:left-16 lg:left-16 flex-col bg-gray-600 h-screen w-full  z-0 ">
                 <div className="fixed lg:top-0 xs:left-0 lg:left-16 lg:h-14 lg:w-screen bg-gray-700 shadow-md text-gray-100 z-20">
