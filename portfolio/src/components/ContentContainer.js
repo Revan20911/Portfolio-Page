@@ -3,8 +3,6 @@ import Home from "./home";
 import {BsHash} from "react-icons/bs";
 // import Skills from "./skills";
 
-import {useState} from 'react'
-
 import Projects from "./projects";
 
 function ContentContainer ({channel}){
