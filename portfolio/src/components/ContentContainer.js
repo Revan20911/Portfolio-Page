@@ -1,7 +1,7 @@
 
 import Home from "./home";
 import {BsHash} from "react-icons/bs";
-import Skills from "./skills";
+// import Skills from "./skills";
 
 import Projects from "./projects";
 
@@ -35,7 +35,7 @@ function ContentContainer ({channel}){
                     
                 </div>
                 <div className="fixed  xs:left-0 xl:left-16 top-14 md:left-16 lg:left-16 sm:left-0 " >
-                    <Skills/>
+                   
                     </div>
                
             </div>
@@ -65,7 +65,7 @@ function ContentContainer ({channel}){
                     
                 </div>
                 <div className="fixed flex-col xl:left-16 top-14 md:left-16 lg:left-16 sm:left-16 " >
-                    <Skills/>
+                   
                     </div>
                
             </div>
