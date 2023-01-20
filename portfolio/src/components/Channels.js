@@ -9,7 +9,7 @@ function Channels({setChannel, sidebarStatus, setSideBarStatus}){
     function changeChannel(value){
 
         setChannel(value);
-        sidebarStatus='inactive';
+        setSidebarStatus('inactive');
         
     }
 
