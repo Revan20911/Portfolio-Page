@@ -9,7 +9,7 @@ function App() {
 
 //   let currentChannel = localStorage.getItem('channel');
 
-  const [channel, setChannel] = useState('');
+  const [channel, setChannel] = useState('Home');
 
   const [sidebarStatus, setSidebarStatus] = useState('inactive');
 
