@@ -13,10 +13,7 @@ function Channels({setChannel, sidebarStatus, setSidebarStatus}){
         
     }
 
-    function Resume(){
-
-    }
-
+    
     const ChannelBar = useRef(null);
     const ChannelBarHeader = useRef(null); 
 
