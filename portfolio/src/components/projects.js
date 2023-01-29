@@ -26,19 +26,16 @@ const Projects = () => {
 
         return <div key={index} className={classProperty}>{skill.name}</div>
 
-
-
-
     }
 
     return(
-        <div className="flex flex-col  py-10 px-10 justify-center w-fit h-screen overflow-scroll">
-            <div className="grid xs:grid-cols-1 lg:grid-cols-auto lg:grid-rows-auto sm:gap-y-6 xs:w-screen  mx-0 my-0 md:grid-cols-3 md:gap-x-48 md:gap-y-0 lg:gap-x-48 lg:gap-y-0 sm:row-span-10 md:grid-rows-auto sm:grid-cols-auto sm:grid-rows-auto  sm:w-screen lg:w-fit w-full h-screen overflow-scroll
+        <div className="flex flex-col  py-10 px-10 justify-center w-fit h-screen ">
+            <div className="grid xs:grid-cols-1 lg:grid-cols-auto lg:grid-rows-auto sm:gap-y-6 xs:w-screen  mx-0 my-0 md:grid-cols-3 md:gap-x-48 md:gap-y-0 lg:gap-x-48 lg:gap-y-0 sm:row-span-10 md:grid-rows-auto sm:grid-cols-auto sm:grid-rows-auto  sm:w-screen lg:w-fit w-full h-screen overflow-scroll scrollbar-hide
             transition-all 1s ease-in-out">
                 {
                     projects.map((project, index) => {
                         return <div  key={index} className="card xs:w-96 h-fit sm:w-[36rem]  lg:w-80 bg-gray-500 shadow-xl md:mr-2 mb-0 lg:mr-2">
-                            <figure ><img className="h-48"src={project.img_url || <Skeleton/>} alt=""/></figure>
+                            <figure ><img className="w-full h-fit"src={project.img_url || <Skeleton/>} alt=""/></figure>
                             <div className="card-body ">
                                 <h2 className="card-title text-gray-100 text-3xl font-extrabold">{project.name || <Skeleton/>}</h2>
                                 <div className="flex h-38 flex-wrap ">
