@@ -57,7 +57,7 @@ function Channels({setChannel, sidebarStatus, setSidebarStatus}){
             <SubChannel name="Skills" onClick={() => changeChannel('Skills')}/>
             <SubChannel name="Projects" onClick={() => changeChannel('Projects')}/>
             <SubChannel name="Contact " onClick={() => changeChannel('Contact')}/>
-            <a to="./assets/resume.pdf" download><SubChannel name="Resume" onClick={() => changeChannel('Contact')}/></a>
+            <a href="./assets/resume.pdf" download><SubChannel name="Resume" onClick={() => changeChannel('Contact')}/></a>
             </div>
             
         </div>

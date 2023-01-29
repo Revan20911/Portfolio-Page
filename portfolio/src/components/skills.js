@@ -1,13 +1,5 @@
-import {useState, Suspense, useRef} from "react";
+import {useState} from "react";
 import {LanguageList, FrameworkList, DatabaseList} from "./skillList";
-
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-
-import { TextureLoader } from "three";
-
-
-import javascript from "../assets/gamecube.jpg";
-
 
 const Skills = () => {
 
