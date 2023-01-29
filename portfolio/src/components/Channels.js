@@ -4,13 +4,17 @@ import {useEffect, useRef} from 'react'
 
 
 
-function Channels({setChannel, sidebarStatus, setSideBarStatus}){
+function Channels({setChannel, sidebarStatus, setSidebarStatus}){
 
     function changeChannel(value){
 
         setChannel(value);
         setSidebarStatus('inactive');
         
+    }
+
+    function Resume(){
+
     }
 
     const ChannelBar = useRef(null);
@@ -53,6 +57,7 @@ function Channels({setChannel, sidebarStatus, setSideBarStatus}){
             <SubChannel name="Skills" onClick={() => changeChannel('Skills')}/>
             <SubChannel name="Projects" onClick={() => changeChannel('Projects')}/>
             <SubChannel name="Contact " onClick={() => changeChannel('Contact')}/>
+            <a to="./assets/resume.pdf" download><SubChannel name="Resume" onClick={() => changeChannel('Contact')}/></a>
             </div>
             
         </div>

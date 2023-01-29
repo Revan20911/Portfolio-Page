@@ -17,22 +17,26 @@ const FrameworkList = [
     {
         name: 'Express',
         img_url: Express,
-        color: 'bg-[#F5F7FF]'
+        color: 'bg-[#F5F7FF]',
+        projects: ['Watchable', 'AniTracker', 'Tweeter', "Where's Waldo" ]
     },
     {
         name: 'React',
         img_url: ReactLogo,
-        color: 'bg-[#61DBFB]'
+        color: 'bg-[#61DBFB]',
+        projects: ['Watchable', 'AniTracker', 'Tweeter', "Where's Waldo" ]
     },
     {
         name: 'Node.js',
         img_url: Node,
-        color: ' bg-[#3C873A]'
+        color: ' bg-[#3C873A]',
+        projects: ['Watchable', 'AniTracker', 'Tweeter', "Where's Waldo" ]
     },
     {
         name: 'Angular',
         img_url: Angular,
-        color: '#dd1b16'
+        color: '#dd1b16',
+        projects: ['Watchable' ]
     },
    
 
@@ -42,23 +46,28 @@ const FrameworkList = [
 const LanguageList = [
     {
         name: 'JavaScript',
-        img_url: JSBadge
+        img_url: JSBadge,
+        projects: ['Watchable', 'AniTracker', 'Tweeter', "Where's Waldo" ]
     },
     {
         name: 'Python',
-        img_url: Python
+        img_url: Python,
+        projects: ['AniTracker' ]
     },
     {
         name: 'TypeScript',
-        img_url: TypeScript
+        img_url: TypeScript,
+        projects: ['Watchable' ]
     },
     {
         name: 'CSS',
-        img_url: CSS
+        img_url: CSS,
+        projects: ['Watchable', 'AniTracker', 'Tweeter', "Where's Waldo" ]
     },
     {
         name: 'HTML',
-        img_url: HTML
+        img_url: HTML,
+        projects: ['Watchable', 'AniTracker', 'Tweeter', "Where's Waldo" ]
     }
 
 
@@ -68,15 +77,18 @@ const LanguageList = [
 const DatabaseList = [
     {
         name: 'MongoDB',
-        img_url: Mongo
+        img_url: Mongo,
+        projects: ['Watchable', 'AniTracker', 'Tweeter', "Where's Waldo" ]
     },
     {
         name: 'MySQL',
-        img_url: MySQL
+        img_url: MySQL,
+        projects: ['Watchable', 'AniTracker', 'Tweeter', "Where's Waldo" ]
     },
     {
         name: 'PostgreSQL',
-        img_url: Postgres
+        img_url: Postgres,
+        projects: ['Watchable', 'AniTracker', 'Tweeter', "Where's Waldo" ]
     }
 ]
 

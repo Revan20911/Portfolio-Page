@@ -1,9 +1,10 @@
 
 import Home from "./home";
 import {BsHash} from "react-icons/bs";
-// import Skills from "./skills";
+import Skills from "./skills";
 
 import Projects from "./projects";
+import Contact from "./contact";
 
 function ContentContainer ({channel}){
 
@@ -27,7 +28,7 @@ function ContentContainer ({channel}){
 
     }else if(currentChannel === 'Skills'){
         return(
-            <div className="fixed left-96 xs:left-0 md:left-16 sm:left-16 lg:left-16 flex-col bg-gray-600 h-screen w-full  ">
+            <div className="fixed left-96 xs:left-0 md:left-16 sm:left-16 lg:left-16 flex-col bg-gray-400 h-screen w-full  ">
                 <div className="fixed top-0 xs:left-0  sm:left-16 md:left-16 h-14 w-screen bg-gray-700 shadow-md text-gray-100">
                     <div className="flex flex-row items-center text-left mt-3 ml-3">
                     <BsHash className="text-gray-500"size="30"/><h1 className="text-lg font-semibold">{channel}</h1>
@@ -35,7 +36,7 @@ function ContentContainer ({channel}){
                     
                 </div>
                 <div className="fixed  xs:left-0 xl:left-16 top-14 md:left-16 lg:left-16 sm:left-0 " >
-                   
+                   <Skills/>
                     </div>
                
             </div>
@@ -65,7 +66,7 @@ function ContentContainer ({channel}){
                     
                 </div>
                 <div className="fixed flex-col xl:left-16 top-14 md:left-16 lg:left-16 sm:left-16 " >
-                   
+                   <Contact/>
                     </div>
                
             </div>
