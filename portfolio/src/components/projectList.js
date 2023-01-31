@@ -39,7 +39,7 @@ const ProjectList = [
     },
     {
         name: 'Tweeter',
-        img_url: 'portfolio/src/assets/Screenshot 2023-01-20 at 17-30-14 React App.png',
+        img_url: 'portfolio/src/assets/Screenshot 2023-01-31 at 17-20-24 React App.png',
         repo: 'https://github.com/Revan20911/Tweeter',
         live:'',
         skills: [ {name : 'React', color: 'bg-blue-400'  },
