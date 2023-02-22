@@ -35,7 +35,7 @@ const Projects = () => {
                 {
                     projects.map((project, index) => {
                         return <div  key={index} className="card xs:w-96 h-fit sm:w-[36rem]  lg:w-80 bg-gray-500 shadow-xl md:mr-2 mb-0 lg:mr-2">
-                            <figure ><img className="w-full h-fit"src={project.img_url || <Skeleton/>} alt=""/></figure>
+                            <figure ><img className="min-w-fit max-w-full min-h-md max-h-48"src={project.img_url || <Skeleton/>} alt=""/></figure>
                             <div className="card-body ">
                                 <h2 className="card-title text-gray-100 text-3xl font-extrabold">{project.name || <Skeleton/>}</h2>
                                 <div className="flex h-38 flex-wrap ">
