@@ -69,8 +69,8 @@ const ProjectList = [
     },
     {
         name: "Where's Waldo",
-        img_url: 'portfolio/src/assets/Screenshot 2023-01-20 at 17-30-14 React App.png',
-        repo: 'https://github.com/Revan20911/Tweeter',
+        img_url: 'https://m.media-amazon.com/images/I/61M0nJcoo8L._AC_.jpg',
+        repo: 'https://github.com/Revan20911/wheres-waldo',
         live:'',
         skills: [ {name : 'React', color: 'bg-blue-400'  },
         {name: 'MongoDB', color:  'bg-green-600'},  
