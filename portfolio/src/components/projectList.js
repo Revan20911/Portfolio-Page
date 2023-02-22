@@ -53,13 +53,13 @@ const ProjectList = [
         {name: 'Express', color: 'bg-black-500'}]
     },
     {
-        name: 'Pokemon Memory Game',
-        img_url: 'portfolio/src/assets/Screenshot 2023-01-20 at 17-30-14 React App.png',
-        repo: 'https://github.com/Revan20911/Tweeter',
+        name: 'Solar System Simulation',
+        img_url: 'https://user-images.githubusercontent.com/47538097/218336741-b949b7e9-9862-4259-a69e-894505d25cb6.png',
+        repo: 'https://github.com/Revan20911/Solar-System',
         live:'',
         skills: [ {name : 'React', color: 'bg-blue-400'  },
         {name: 'MongoDB', color:  'bg-green-600'},  
-        { name: 'JavaScript', color: 'bg-yellow-400'},
+        { name: 'Typescript', color: 'bg-blue-600'},
 
 
         { name: 'CSS', color: ' bg-red-500'},
