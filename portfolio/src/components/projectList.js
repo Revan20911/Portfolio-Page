@@ -41,7 +41,7 @@ const ProjectList = [
         name: 'Tweeter',
         img_url: 'https://user-images.githubusercontent.com/47538097/215896771-4c50f725-d078-4653-99a2-7a515c7a53ea.png',
         repo: 'https://github.com/Revan20911/Tweeter',
-        live:'',
+        live:'https://definitely-not-tweeter.netlify.app/',
         skills: [ {name : 'React', color: 'bg-blue-400'  },
         {name: 'MongoDB', color:  'bg-green-600'},  
         { name: 'JavaScript', color: 'bg-yellow-400'},
