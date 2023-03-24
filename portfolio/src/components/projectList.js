@@ -56,7 +56,7 @@ const ProjectList = [
         name: 'Solar System Simulation',
         img_url: 'https://user-images.githubusercontent.com/47538097/218336741-b949b7e9-9862-4259-a69e-894505d25cb6.png',
         repo: 'https://github.com/Revan20911/Solar-System',
-        live:'',
+        live:'https://sol-system-sim.netlify.app/',
         skills: [ {name : 'React', color: 'bg-blue-400'  },
         {name: 'MongoDB', color:  'bg-green-600'},  
         { name: 'Typescript', color: 'bg-blue-600'},
