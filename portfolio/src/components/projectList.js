@@ -71,7 +71,7 @@ const ProjectList = [
         name: "Where's Waldo",
         img_url: 'https://m.media-amazon.com/images/I/61M0nJcoo8L._AC_.jpg',
         repo: 'https://github.com/Revan20911/wheres-waldo',
-        live:'',
+        live:'https://github.com/Revan20911/wheres-waldo',
         skills: [ {name : 'React', color: 'bg-blue-400'  },
         {name: 'MongoDB', color:  'bg-green-600'},  
         { name: 'JavaScript', color: 'bg-yellow-400'},
@@ -82,6 +82,17 @@ const ProjectList = [
         {name: 'Node.js', color: 'bg-green-500'},
         {name: 'Express', color: 'bg-black-500'}]
     },
+    {
+        name: "SauceFinder",
+        img_url: 'https://user-images.githubusercontent.com/47538097/216128790-43d3d12c-207e-4a60-a5c1-41c7972ed3d9.png',
+        repo:'https://github.com/Revan20911/SauceFinder',
+        live:'https://github.com/Revan20911/SauceFinder',
+        skills: [ {name : 'Discord.js', color: 'bg-blue-400'},
+        { name: 'JavaScript', color: 'bg-yellow-400'}]
+    },
+    
+    
+    
 ]
 
 
